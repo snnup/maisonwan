@@ -219,12 +219,12 @@ nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
     flex-direction: column;
     position: relative;
     cursor: pointer;
     text-align: center;
     box-sizing: border-box;
+    padding: 0 48px;
 }
 
 .produto-card img {
@@ -267,29 +267,30 @@ nav a.active {
 .carrossel {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .seta-direita {
     position: absolute;
-    right: 200px;
-    top: 50%;
+    right: 20px;
+    top: 40%;
     transform: translateY(-50%);
     background: transparent;
     border: none;
-    font-size: 24px;
+    font-size: 28px;
     cursor: pointer;
     z-index: 10;
 }
 
 .seta-esquerda {
     position: absolute;
-    left: 200px;
-    top: 50%;
+    left: 20px;
+    top: 40%;
     transform: translateY(-50%);
     background: transparent;
     border: none;
-    font-size: 24px;
+    font-size: 28px;
     cursor: pointer;
     z-index: 10;
     display: none;
@@ -497,6 +498,11 @@ footer ul {
 }
 
 @media (max-width: 768px) {
+    .carrossel {
+        width: 100%;
+        margin: 0;
+    }
+
     .carrossel-track {
         /* flex already set globally */
     }
@@ -504,10 +510,11 @@ footer ul {
     .produto-card {
         flex: 0 0 50%;
         max-width: 50%;
+        padding: 0 12px;
     }
 
-    .seta-direita { right: 10px; }
-    .seta-esquerda { left: 10px; }
+    .seta-direita { right: 4px; }
+    .seta-esquerda { left: 4px; }
 }
 
 @media (max-width: 768px) {
