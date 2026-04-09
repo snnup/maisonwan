@@ -207,22 +207,24 @@ nav a.active {
     width: 100%;
 }
 
-.produtos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0px 0px;
-    max-width: 900px;
-    margin: auto;
-    gap: 0px;
+.carrossel-track {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.4s ease;
+    will-change: transform;
 }
 
 .produto-card {
+    flex: 0 0 calc(100% / 3);
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 20px;
     flex-direction: column;
     position: relative;
     cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .produto-card img {
@@ -265,12 +267,6 @@ nav a.active {
 .carrossel {
     position: relative;
     overflow: hidden;
-    width: 100%;
-}
-
-.carrossel-track {
-    display: flex;
-    transition: transform 0.4s ease;
     width: 100%;
 }
 
@@ -318,12 +314,6 @@ nav a.active {
 
 .produto-card:hover .ph-heart {
     opacity: 1;
-}
-
-.grupo-produtos {
-    min-width: calc(100% / 3);
-    flex-shrink: 0;
-    box-sizing: border-box;
 }
 
 @keyframes slideEsquerda {
@@ -507,20 +497,13 @@ footer ul {
 }
 
 @media (max-width: 768px) {
-    .produtos-grid {
-        grid-template-columns: 1fr;
-        max-width: 300px;
-        margin: 0 auto;
+    .carrossel-track {
+        /* flex already set globally */
     }
 
-    .grupo-produtos {
-        width: 50%;
-    }
-
-    /* esconde o 2º e 3º produto de cada grupo */
-    .produto-card:nth-child(2),
-    .produto-card:nth-child(3) {
-        display: none;
+    .produto-card {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 
     .seta-direita { right: 10px; }
