@@ -199,6 +199,14 @@ nav a.active {
     padding-right: 0px;
     flex-direction: column;
     align-items: stretch;
+    overflow: hidden;
+    position: relative;
+}
+
+.bestsellers h2 {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    padding-bottom: 40px;
 }
 
 .top-bar {
@@ -273,8 +281,8 @@ nav a.active {
 
 .seta-direita {
     position: absolute;
-    right: 20px;
-    top: 40%;
+    right: calc(50% - 600px);
+    top: 50%;
     transform: translateY(-50%);
     background: transparent;
     border: none;
@@ -285,8 +293,8 @@ nav a.active {
 
 .seta-esquerda {
     position: absolute;
-    left: 20px;
-    top: 40%;
+    left: calc(50% - 600px);
+    top: 50%;
     transform: translateY(-50%);
     background: transparent;
     border: none;
@@ -418,7 +426,103 @@ footer ul {
     display: none;
 }
 
-/* esconde hamburger e lupa esquerda no desktop */
+.header-icons-left .ph-magnifying-glass {
+    display: none; /* some no desktop */
+}
+
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.menu-drawer {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    background: white;
+    z-index: 200;
+    transition: left 0.3s ease;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-drawer.aberto {
+    left: 0;
+}
+
+.menu-overlay.ativo {
+    display: block;
+}
+
+.menu-fechar {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-end; /* ← era flex-end, muda para flex-start */
+    margin-bottom: 5px;
+}
+
+.menu-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.menu-lista li {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-lista a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.menu-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0 -24px -32px -24px;
+    padding: 0 24px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e8e8e8;
+}
+
+.menu-bottom a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #e8e8e8;
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 13px;
+    font-family: var(--fonte-corpo);
+    font-weight: 300;
+}
+
+.menu-bottom a i {
+    font-size: 20px;
+}
+
 .hamburger {
     display: none;
     background: transparent;
@@ -427,22 +531,19 @@ footer ul {
     cursor: pointer;
 }
 
-.header-icons-left .ph-magnifying-glass {
-    display: none; /* some no desktop */
-}
-
 @media (max-width: 768px) {
     /* HEADER */
     nav { display: none; }
-    
     .hamburger { display: block; }
     
+    header { padding: 12px 0; }
+
     .header-top h1 {
         white-space: nowrap;
         font-size: 20px;
         flex: 1;
         text-align: center;
-        padding-left: 60px;
+        padding-left: 50px;
     }
 
     .header-icons-left {
@@ -453,9 +554,7 @@ footer ul {
         gap: 12px;
     }
 
-    .header-icons-left .ph-magnifying-glass {
-        display: block;
-    }
+    .header-icons-left .ph-magnifying-glass { display: block; }
 
     .header-icons {
         flex: 0;
@@ -464,9 +563,7 @@ footer ul {
     }
 
     .header-icons .ph-magnifying-glass,
-    .header-icons .ph-heart {
-        display: none;
-    }
+    .header-icons .ph-heart { display: none; }
 
     /* HERO */
     #hero {
@@ -495,16 +592,11 @@ footer ul {
         font-size: 20px;
         line-height: 28px;
     }
-}
 
-@media (max-width: 768px) {
+    /* CARROSSEL */
     .carrossel {
         width: 100%;
         margin: 0;
-    }
-
-    .carrossel-track {
-        /* flex already set globally */
     }
 
     .produto-card {
@@ -515,10 +607,37 @@ footer ul {
 
     .seta-direita { right: 4px; }
     .seta-esquerda { left: 4px; }
-}
 
-@media (max-width: 768px) {
-    .bestsellers h2 {
-        font-size: 20px;
+    /* BESTSELLERS */
+    .bestsellers {
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .bestsellers h2 { font-size: 20px; }
+
+    /* FOOTER */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        padding: 0 24px;
+        gap: 32px;
+    }
+
+    .footer-logo {
+        font-size: 22px;
+        padding: 0 24px 24px 24px;
+    }
+
+    .footer-bottom {
+        padding-left: 24px;
+        padding-right: 24px;
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .footer-social {
+        gap: 16px;
+        display: flex;
     }
 }

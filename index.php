@@ -10,6 +10,30 @@
 </head>
 
 <body>
+    <div class="menu-overlay"></div>
+    <div class="menu-drawer">
+    <button class="menu-fechar">
+        <i class="ph ph-x"></i>
+    </button>
+    
+    <ul class="menu-lista">
+        <li><a href="/maisonwan/haute-couture.php">HAUTE COUTURE<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/fashion.php">FASHION<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/high-jewelry.php">HIGH JEWELRY<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/fine-jewelry.php">FINE JEWELRY<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/watches.php">WATCHES<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/N°5.php">N°5<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/eyewear.php">EYEWEAR<i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/men.php">MEN <i class="ph ph-caret-right"></i></a></li>
+        <li><a href="/maisonwan/woman.php">WOMAN <i class="ph ph-caret-right"></i></a></li>
+    </ul>
+
+    <div class="menu-bottom">
+    <a href="#">Wishlist <i class="ph ph-heart"></i></a>
+    <a href="#">Find a Store <i class="ph ph-map-pin"></i></a>
+</div>
+</div>
+
     <div class="top-bar"></div>
     <header>
 <div class="header-top">
@@ -27,19 +51,7 @@
     <i class="ph ph-shopping-bag"></i>
 </div>
 </div>
-        <nav>
-            <ul>
-                    <li><a href="haute-couture.html">HAUTE COUTURE</a></li>
-                    <li><a href="fashion.html">FASHION</a></li>
-                    <li><a href="high-jewelry.html">HIGH JEWELRY</a></li>
-                    <li><a href="fine-jewelry.html">FINE JEWELRY</a></li>
-                    <li><a href="watches.html">WATCHES</a></li>
-                    <li><a href="N°5.html">N°5</a></li>
-                    <li><a href="eyewear.html">EYEWEAR</a></li>
-                    <li><a href="men.html">MEN</a></li>
-                    <li><a href="woman.html">WOMAN</a></li>
-            </ul>
-        </nav>
+<?php include_once 'menu.php' ?>
     </header>
 
     <main>
@@ -53,6 +65,8 @@
         </section>
         <section class="bestsellers">
             <h2>FRAGRANCE BESTSELLERS</h2>
+            <div class="seta-esquerda-wrapper">
+            <button class="seta-esquerda">‹</button>
             <div class="carrossel">
                 <div class="carrossel-track">
                     <div class="produto-card">
@@ -128,9 +142,10 @@
                         <button>ADD TO BAG</button>
                     </div>
                 </div>
-                <button class="seta-direita">›</button>
-                <button class="seta-esquerda">‹</button>
             </div>
+            <div class="seta-direita-wrapper">
+            <button class="seta-direita">›</button>
+</div>
             <span class="indicador">1 / 3</span>
         </section>
         <section><h2>Produtos</h2>
@@ -203,6 +218,7 @@
         <a href="#"><i class="ph ph-youtube-logo"></i></a>
         <a href="#"><i class="ph ph-tiktok-logo"></i></a>
     </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>

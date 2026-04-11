@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watches — Maison Wan</title>
+    <title>Fashion — Maison Wan</title>
 </head>
 
 <body>
@@ -22,19 +22,7 @@
 <i class="ph ph-shopping-bag"></i>
     </div>
 </div>
-        <nav>
-            <ul>
-                    <li><a href="haute-couture.html">HAUTE COUTURE</a></li>
-                    <li><a href="fashion.html">FASHION</a></li>
-                    <li><a href="high-jewelry.html">HIGH JEWELRY</a></li>
-                    <li><a href="fine-jewelry.html">FINE JEWELRY</a></li>
-                    <li><a href="watches.html" class="active">WATCHES</a></li>
-                    <li><a href="N°5.html">N°5</a></li>
-                    <li><a href="eyewear.html">EYEWEAR</a></li>
-                    <li><a href="men.html">MEN</a></li>
-                    <li><a href="woman.html">WOMAN</a></li>
-            </ul>
-        </nav>
+<?php include_once 'menu.php' ?>
     </header>
 
     <footer>
