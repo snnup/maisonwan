@@ -93,8 +93,8 @@ Se `enable_logging` estiver ativado, os erros serão registrados em `logs/errors
 ## ✅ Verificar Funcionamento
 
 1. Acesse uma URL inexistente:
-   - `http://localhost/maisonwan/pagina-inexistente`
-   - `http://localhost/maisonwan/produtos/xyz`
+   - `http://localhost/pagina-inexistente`
+   - `http://localhost/produtos/xyz`
 
 2. Você deve ver a página 404 personalizada
 

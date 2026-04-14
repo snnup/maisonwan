@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="icon" type="image/svg+xml" href="/maisonwan/favicon2.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon2.svg">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="/maisonwan/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página não encontrada — Maison Wan</title>
@@ -81,7 +81,7 @@
                 </button>
                 <i class="ph ph-magnifying-glass"></i>
             </div>
-            <h1><a href="/maisonwan/">Maison Wan</a></h1>
+            <h1><a href="/">Maison Wan</a></h1>
             <div class="header-icons">
                 <i class="ph ph-magnifying-glass"></i>
                 <i class="ph ph-user"></i>
@@ -101,7 +101,7 @@
                 A página que você procura não existe ou foi movida.<br>
                 Verifique o endereço ou retorne à página inicial.
             </p>
-            <a href="/maisonwan/" class="error-button">RETORNAR À HOME</a>
+            <a href="/" class="error-button">RETORNAR À HOME</a>
         </div>
     </main>
 
@@ -111,20 +111,27 @@
             <div class="footer-col">
                 <h4 class="margin10">EXPLORE</h4>
                 <ul>
-                    <li><a href="/maisonwan/haute-couture.php">Haute Couture</a></li>
-                    <li><a href="/maisonwan/fashion.html">Fashion</a></li>
-                    <li><a href="/maisonwan/watches.html">Watches</a></li>
-                    <li><a href="/maisonwan/eyewear.html">Eyewear</a></li>
-                    <li><a href="/maisonwan/men.html">Men</a></li>
-                    <li><a href="/maisonwan/woman.html">Woman</a></li>
+                    <li><a href="#">Haute Couture</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">High Jewelry</a></li>
+                    <li><a href="#">Fine Jewelry</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">N°5</a></li>
+                    <li><a href="#">Eyewear</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Woman</a></li>
+                    <li><a href="#">SiteMap</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4 class="margin10">ONLINE SERVICES</h4>
                 <ul>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">Shipping Options</a></li>
                     <li><a href="#">My Account</a></li>
                     <li><a href="#">Returns</a></li>
                     <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Care & Services</a></li>
                     <li><a href="#">E-gift card</a></li>
                 </ul>
             </div>
@@ -138,9 +145,19 @@
             <div class="footer-col">
                 <h4 class="margin10">THE HOUSE OF WAN</h4>
                 <ul>
+                    <li><a href="#">Careers</a></li>
                     <li><a href="#">Legal</a></li>
                     <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Do Not Sell or Share My Personal Information</a></li>
+                    <li><a href="#">Report to Society</a></li>
+                    <li><a href="#">Fighting Counterfeits</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">California Transparency in Supply Chains</a></li>
+                    <li><a href="#">WAN Racial Justice Efforts</a></li>
+                    <li><a href="#">Transparency in Coverage</a></li>
+                    <li><a href="#">Sustainability-Linked Bond Update</a></li>
+                    <li><a href="#">Responsible Jewellery Statement</a></li>
+                    <li><a href="#">Consumer Health Data Privacy Notice</a></li>
                 </ul>
             </div>
         </div>
@@ -156,6 +173,6 @@
         </div>
     </footer>
 
-    <script src="/maisonwan/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>

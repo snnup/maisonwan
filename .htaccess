@@ -5,7 +5,7 @@
     RewriteEngine On
     
     # Define o diretório base — ajuste se mudar o nome da pasta
-    RewriteBase /maisonwan/
+    RewriteBase /
     
     # Remove trailing slash (exceto pasta raiz)
     RewriteCond %{REQUEST_FILENAME} !-d
@@ -14,12 +14,12 @@
     # Redireciona URLs sem extensão para .php (ex: /fashion → /fashion.php)
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{DOCUMENT_ROOT}/maisonwan/$1.php -f
+    RewriteCond %{DOCUMENT_ROOT}/$1.php -f
     RewriteRule ^([^.]+)$ $1.php [L]
 </IfModule>
 
 # Página de erro 404 personalizada
-ErrorDocument 404 /maisonwan/404.php
+ErrorDocument 404 /404.php
 
 # Bloquear acesso a arquivos sensíveis
 <Files ".htaccess">

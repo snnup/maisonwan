@@ -14,7 +14,7 @@
     <header>
 <div class="header-top">
     <div class="header-icons-left"></div>
-    <h1><a href="index.html">Maison Wan</a></h1>
+    <h1><a href="index.php">Maison Wan</a></h1>
     <div class="header-icons">
 <i class="ph ph-magnifying-glass"></i>
 <i class="ph ph-user"></i>
