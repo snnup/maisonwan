@@ -213,10 +213,10 @@
 <div class="footer-bottom">
     <span>© 2026 Maison Wan</span>
     <div class="footer-social">
-        <a href="https://www.instagram.com/maisonwan/"><i class="ph ph-instagram-logo"></i></a>
-        <a href="https://www.facebook.com/maisonwan"><i class="ph ph-facebook-logo"></i></a>
-        <a href="https://www.youtube.com/maisonwan"><i class="ph ph-youtube-logo"></i></a>
-        <a href="https://www.tiktok.com/@maisonwan"><i class="ph ph-tiktok-logo"></i></a>
+        <a href="https://www.instagram.com/maisonwan/" target="_blank" rel="noopener noreferrer"><i class="ph ph-instagram-logo"></i></a>
+        <a href="https://www.facebook.com/maisonwan" target="_blank" rel="noopener noreferrer"><i class="ph ph-facebook-logo"></i></a>
+        <a href="https://www.youtube.com/maisonwan" target="_blank" rel="noopener noreferrer"><i class="ph ph-youtube-logo"></i></a>
+        <a href="https://www.tiktok.com/@maisonwan" target="_blank" rel="noopener noreferrer"><i class="ph ph-tiktok-logo"></i></a>
     </div>
     </footer>
     <script src="js/script.js"></script>
