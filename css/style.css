@@ -129,6 +129,32 @@ nav a.active {
     font-weight: normal;
 }
 
+#hero2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/Design sem nome.png');
+    background-size: cover;
+    background-position: center;
+    padding-left: 200px;
+    font-weight: normal;
+}
+
+#hero3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/Design sem nome 2.png');
+    background-size: cover;
+    background-position: center;
+    padding-right: 200px;
+    font-weight: normal;
+}
+
 .hero-content {
     width: 40%;
 }
@@ -163,6 +189,107 @@ nav a.active {
     cursor: pointer;
     border: 1px solid #f9f9f9;
 }
+
+.botaohero2 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+
+.botaohero2 button {
+      border-bottom: 2px solid var(--cor-primaria);
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: var(--fonte-principal);
+      margin-top: 15px;
+}
+
+.botaohero2 button:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.hero2-content {
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero3-content {
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#hero2 img,
+#hero3 img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #f9f9f9;
+}
+
+.hero2-content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    overflow-wrap: break-word;
+}
+
+.hero2-content .margin03 {
+    font-size: 12px;
+    font-family: var(--fonte-corpo);
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+.hero3-content .margin03 {
+    font-size: 12px;
+    font-family: var(--fonte-corpo);
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+.botaohero3 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+
+.botaohero3 button {
+      border-bottom: 2px solid var(--cor-primaria);
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: var(--fonte-principal);
+      margin-top: 15px;
+}
+
+.botaohero3 button:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.hero-content .margin02 {
+    margin: 0;
+    font-size: 12px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 18px;
+}
+
 
 .margin0 {
     margin: 0;
@@ -254,6 +381,12 @@ nav a.active {
       cursor: pointer;
       font-size: 11px;
       font-family: var(--fonte-principal);
+}
+
+.produto-card button:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 .produto-card h3 {
@@ -591,6 +724,54 @@ footer ul {
     .hero-content h2 {
         font-size: 20px;
         line-height: 28px;
+    }
+
+    /* HERO2 E HERO3 */
+    #hero2,
+    #hero3 {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
+    .hero-img-mobile {
+        display: block;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 85% top;
+    }
+
+    .hero2-content,
+    .hero3-content {
+        width: 100%;
+        padding: 40px 24px;
+        text-align: center;
+    }
+
+    .hero2-content h2,
+    .hero3-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .hero2-content .margin02,
+    .hero3-content .margin02 {
+        font-size: 12px;
+    }
+
+    .hero2-content .margin03,
+    .hero3-content .margin03 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .botaohero2,
+    .botaohero3 {
+        justify-content: center;
+        width: 100%;
     }
 
     /* CARROSSEL */

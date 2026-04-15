@@ -149,6 +149,28 @@
             <span class="indicador">1 / 3</span>
         </section>
         <section><h2>Produtos</h2>
+            <section id="hero2">
+            <img src="img/Design sem nome.png" class="hero-img-mobile" alt="Hero">
+            <div class="hero2-content">
+            <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
+            <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM.</h2>
+            <p class="margin03 TextCenter">A surprisingly fresh, feminine ambery-woody fragrance.<br>A surprisingly fresh, feminine ambery-woody fragrance that blends<br>luminous citrus notes with soft florals and a warm, sensual base.</p>
+            <div class="botaohero2">
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        </section>
+        <section id="hero3">
+            <img src="img/Design sem nome.png" class="hero-img-mobile" alt="Hero">
+            <div class="hero3-content">
+            <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
+            <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM PURSE<br>SPRAY</h2>
+            <p class="margin03 TextCenter">The Eau de Parfum, presented in a case that can be taken anywhere.</p>
+            <div class="botaohero3">
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        </section>
         <section><h2>Contato</h2>
     </main>
     <footer>
