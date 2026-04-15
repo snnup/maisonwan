@@ -10,19 +10,50 @@
 </head>
 
 <body>
+
+    <div class="menu-overlay"></div>
+    <div class="menu-drawer">
+    <button class="menu-fechar">
+        <i class="ph ph-x"></i>
+    </button>
+
+        <ul class="menu-lista">
+        <li><a href="/haute-couture">HAUTE COUTURE</a></li>
+        <li><a href="/fashion">FASHION</a></li>
+        <li><a href="/high-jewelry">HIGH JEWELRY</a></li>
+        <li><a href="/fine-jewelry">FINE JEWELRY</a></li>
+        <li><a href="/watches">WATCHES</a></li>
+        <li><a href="/N5">N°5</a></li>
+        <li><a href="/eyewear">EYEWEAR</a></li>
+        <li><a href="/men">MEN</a></li>
+        <li><a href="/woman">WOMAN</a></li>
+    </ul>
+
+    <?php include_once 'menu.php' ?>
+
+    <div class="menu-bottom">
+    <a href="#">Wishlist <i class="ph ph-heart"></i></a>
+    <a href="#">Find a Store <i class="ph ph-map-pin"></i></a>
+</div>
+</div>
+
     <div class="top-bar"></div>
     <header>
 <div class="header-top">
-    <div class="header-icons-left"></div>
-    <h1><a href="/">Maison Wan</a></h1>
-    <div class="header-icons">
-<i class="ph ph-magnifying-glass"></i>
-<i class="ph ph-user"></i>
-<i class="ph ph-heart"></i>
-<i class="ph ph-shopping-bag"></i>
+    <div class="header-icons-left">
+        <button class="hamburger">
+            <i class="ph ph-list"></i>
+        </button>
+        <i class="ph ph-magnifying-glass"></i>
     </div>
+    <h1><a href="/">Maison Wan</a></h1>
+<div class="header-icons">
+    <i class="ph ph-magnifying-glass"></i>
+    <i class="ph ph-user"></i>
+    <i class="ph ph-heart"></i>
+    <i class="ph ph-shopping-bag"></i>
 </div>
-<?php include_once 'menu.php' ?>
+</div>
     </header>
     
     <footer>
