@@ -111,53 +111,53 @@
             <div class="footer-col">
                 <h4 class="margin10">EXPLORE</h4>
                 <ul>
-                    <li><a href="#">Haute Couture</a></li>
-                    <li><a href="#">Fashion</a></li>
-                    <li><a href="#">High Jewelry</a></li>
-                    <li><a href="#">Fine Jewelry</a></li>
-                    <li><a href="#">Watches</a></li>
-                    <li><a href="#">N°5</a></li>
-                    <li><a href="#">Eyewear</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Woman</a></li>
-                    <li><a href="#">SiteMap</a></li>
+                    <li><a href="/haute-couture/">Haute Couture</a></li>
+                    <li><a href="/fashion/">Fashion</a></li>
+                    <li><a href="/high-jewelry/">High Jewelry</a></li>
+                    <li><a href="/fine-jewelry/">Fine Jewelry</a></li>
+                    <li><a href="/watches/">Watches</a></li>
+                    <li><a href="/N5/">N°5</a></li>
+                    <li><a href="/eyewear/">Eyewear</a></li>
+                    <li><a href="/men/">Men</a></li>
+                    <li><a href="/woman/">Woman</a></li>
+                    <li><a href="/sitemap/">SiteMap</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4 class="margin10">ONLINE SERVICES</h4>
                 <ul>
-                    <li><a href="#">Payment Methods</a></li>
-                    <li><a href="#">Shipping Options</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Care & Services</a></li>
-                    <li><a href="#">E-gift card</a></li>
+                    <li><a href="/payment-methods/">Payment Methods</a></li>
+                    <li><a href="/shipping-options/">Shipping Options</a></li>
+                    <li><a href="/my-account/">My Account</a></li>
+                    <li><a href="/returns/">Returns</a></li>
+                    <li><a href="/faq/">FAQ</a></li>
+                    <li><a href="/care-services/">Care & Services</a></li>
+                    <li><a href="/e-gift-card/">E-gift card</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4 class="margin10">BOUTIQUE SERVICES</h4>
                 <ul>
-                    <li><a href="#">Store Locator</a></li>
-                    <li><a href="#">Book an Appointment</a></li>
+                    <li><a href="/store-locator/">Store Locator</a></li>
+                    <li><a href="/book-an-appointment/">Book an Appointment</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4 class="margin10">THE HOUSE OF WAN</h4>
                 <ul>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Legal</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Do Not Sell or Share My Personal Information</a></li>
-                    <li><a href="#">Report to Society</a></li>
-                    <li><a href="#">Fighting Counterfeits</a></li>
-                    <li><a href="#">Accessibility</a></li>
-                    <li><a href="#">California Transparency in Supply Chains</a></li>
-                    <li><a href="#">WAN Racial Justice Efforts</a></li>
-                    <li><a href="#">Transparency in Coverage</a></li>
-                    <li><a href="#">Sustainability-Linked Bond Update</a></li>
-                    <li><a href="#">Responsible Jewellery Statement</a></li>
-                    <li><a href="#">Consumer Health Data Privacy Notice</a></li>
+                    <li><a href="/careers/">Careers</a></li>
+                    <li><a href="/legal/">Legal</a></li>
+                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/do-not-sell-or-share-my-personal-information/">Do Not Sell or Share My Personal Information</a></li>
+                    <li><a href="/report-to-society/">Report to Society</a></li>
+                    <li><a href="/fighting-counterfeits/">Fighting Counterfeits</a></li>
+                    <li><a href="/accessibility/">Accessibility</a></li>
+                    <li><a href="/california-transparency-in-supply-chains/">California Transparency in Supply Chains</a></li>
+                    <li><a href="/wan-racial-justice-efforts/">WAN Racial Justice Efforts</a></li>
+                    <li><a href="/transparency-in-coverage/">Transparency in Coverage</a></li>
+                    <li><a href="/sustainability-linked-bond-update/">Sustainability-Linked Bond Update</a></li>
+                    <li><a href="/responsible-jewellery-statement/">Responsible Jewellery Statement</a></li>
+                    <li><a href="/consumer-health-data-privacy-notice/">Consumer Health Data Privacy Notice</a></li>
                 </ul>
             </div>
         </div>
