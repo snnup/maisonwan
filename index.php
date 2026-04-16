@@ -174,15 +174,44 @@
             <img src="img/1776186602089-ratio-chance-es-editopush_2596x1948.webp" class="hero-img-mobile" alt="Hero">
             <div class="hero4-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
-            <h2 class="margin5 TextCenter">CHANCE EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>
+            <h2 class="margin5 TextCenter">WAN EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>
             <p class="margin03 TextCenter">Housed in a new bottle inspired by the original shape, Splendide features an<br>abstract floral bouquet elevated by woody notes of sandalwood and vetiver.</p>
             <div class="botaohero4">
                 <button>SHOP NOW</button>
             </div>
         </div>
         </section>
-        <section class="bestsellers">
+        <section class="shop-category">
             <h2>SHOP BY CATEGORY</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="img/woman-category.webp" alt="Women">
+                    <h3>WOMEN</h3>
+                </div>
+                <div class="category-card">
+                    <img src="img/men-category.webp" alt="Men">
+                    <h3>MEN</h3>
+                </div>
+                <div class="category-card">
+                    <img src="img/exclusifs-category.webp" alt="Les Exclusifs">
+                    <h3>LES EXCLUSIFS</h3>
+                </div>
+                <div class="category-card">
+                    <img src="img/eaux-category.webp" alt="Les Eaux">
+                    <h3>LES EAUX</h3>
+                </div>
+            </div>
+        </section>
+            <section id="hero5">
+            <img src="img/1776186602971-ratio-gift-finder-desk-mp-1_1800x5760.webp" class="hero-img-mobile" alt="Hero">
+            <div class="hero5-content">
+            <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
+            <h2 class="margin0 TextCenter">THE WAN GIFT FINDER</h2>
+            <p class="margin03 TextCenter">Discorver the perfect present in a flash. Visual for illustrative purproses only.</p>
+            <div class="botaohero5">
+                <button>GET STARTED</button>
+            </div>
+        </div>
         </section>
     </main>
     <footer>

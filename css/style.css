@@ -168,6 +168,19 @@ nav a.active {
     font-weight: normal;
 }
 
+#hero5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/1776186602971-ratio-gift-finder-desk-mp-1_1800x5760.webp');
+    background-size: cover;
+    background-position: center;
+    padding-left: 200px;
+    font-weight: normal;
+}
+
 .hero-content {
     width: 40%;
 }
@@ -294,6 +307,68 @@ nav a.active {
     letter-spacing: 3px;
     line-height: 18px;
 }
+
+.botaohero5 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+
+.botaohero5 button {
+    display: inline-block;
+    padding: 14px 20px;
+    background: black;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #1D1D1D;
+    font-size: 11px;
+    letter-spacing: 0px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-family: var(--fonte-principal);
+    margin-top: 20px;
+}
+
+.botaohero5 button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hero5-content {
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+
+
+.hero5-content h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow-wrap: break-word;
+    padding-top: 5px;
+}
+
+.hero5-content p {
+    font-size: 12px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+.hero5-content .margin03 {
+    font-size: 12px;
+    font-family: var(--fonte-corpo);
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+.hero5-content .margin02 {
+    letter-spacing: 1px;
+};
 
 .botaohero4 {
       display: flex;
@@ -715,6 +790,71 @@ footer ul {
     cursor: pointer;
 }
 
+/* SHOP BY CATEGORY */
+.shop-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 40px;
+}
+
+.shop-category h2 {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.category-card:hover img {
+    opacity: 0.9;
+}
+
+.category-card h3 {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0px;
+    margin: 0;
+    transition: opacity 0.3s ease;
+}
+
+.category-card:hover h3 {
+    opacity: 0.7;
+}
+
 @media (max-width: 768px) {
     /* HEADER */
     nav { display: none; }
@@ -790,6 +930,14 @@ footer ul {
         align-items: center;
     }
 
+        #hero5 {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
     .hero-content {
         width: 100%;
         padding: 40px 24px;
@@ -812,7 +960,8 @@ footer ul {
 
     .hero2-content,
     .hero3-content,
-    .hero4-content {
+    .hero4-content,
+    .hero5-content {
         width: 100%;
         padding: 40px 24px;
         text-align: center;
@@ -820,27 +969,31 @@ footer ul {
 
     .hero2-content h2,
     .hero3-content h2,
-    .hero4-content h2 {
+    .hero4-content h2,
+    .hero5-content h2 {
         font-size: 20px;
         line-height: 28px;
     }
 
     .hero2-content .margin02,
     .hero3-content .margin02,
-    .hero4-content .margin02 {
+    .hero4-content .margin02,
+    .hero5-content .margin02 {
         font-size: 12px;
     }
 
     .hero2-content .margin03,
     .hero3-content .margin03,
-    .hero4-content .margin03 {
+    .hero4-content .margin03,
+    .hero5-content .margin03 {
         font-size: 12px;
         line-height: 18px;
     }
 
     .botaohero2,
     .botaohero3,
-    .botaohero4 {
+    .botaohero4,
+    .botaohero5 {
         justify-content: center;
         width: 100%;
     }
@@ -867,6 +1020,29 @@ footer ul {
     }
 
     .bestsellers h2 { font-size: 20px; }
+
+    /* SHOP BY CATEGORY */
+    .shop-category {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 0 16px;
+    }
+
+    .shop-category h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        width: 300px;
+    }
+
+    .category-card h3 {
+        font-size: 12px;
+        font-weight: 400;
+    }
 
     /* FOOTER */
     .footer-grid {
