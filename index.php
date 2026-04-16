@@ -161,7 +161,7 @@
         </div>
         </section>
         <section id="hero3">
-            <img src="img/Design sem nome.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 2.png" class="hero-img-mobile" alt="Hero">
             <div class="hero3-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM PURSE<br>SPRAY</h2>

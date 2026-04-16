@@ -226,14 +226,6 @@ nav a.active {
     padding-right: 30px;
 }
 
-#hero2 img,
-#hero3 img {
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-    background-color: #f9f9f9;
-}
-
 .hero2-content h2 {
     font-size: 30px;
     font-weight: 600;
@@ -715,6 +707,22 @@ footer ul {
         object-position: 85% top;
     }
 
+    #hero2 {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
+    #hero3 {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
     .hero-content {
         width: 100%;
         padding: 40px 24px;
@@ -726,15 +734,6 @@ footer ul {
         line-height: 28px;
     }
 
-    /* HERO2 E HERO3 */
-    #hero2,
-    #hero3 {
-        background-image: none;
-        flex-direction: column;
-        height: auto;
-        padding: 0;
-        align-items: center;
-    }
 
     .hero-img-mobile {
         display: block;
