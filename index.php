@@ -148,7 +148,6 @@
 </div>
             <span class="indicador">1 / 3</span>
         </section>
-        <section><h2>Produtos</h2>
             <section id="hero2">
             <img src="img/Design sem nome.png" class="hero-img-mobile" alt="Hero">
             <div class="hero2-content">
@@ -171,7 +170,20 @@
             </div>
         </div>
         </section>
-        <section><h2>Contato</h2>
+            <section id="hero4">
+            <img src="img/1776186602089-ratio-chance-es-editopush_2596x1948.webp" class="hero-img-mobile" alt="Hero">
+            <div class="hero4-content">
+            <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
+            <h2 class="margin5 TextCenter">CHANCE EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>
+            <p class="margin03 TextCenter">Housed in a new bottle inspired by the original shape, Splendide features an<br>abstract floral bouquet elevated by woody notes of sandalwood and vetiver.</p>
+            <div class="botaohero4">
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        </section>
+        <section class="bestsellers">
+            <h2>SHOP BY CATEGORY</h2>
+        </section>
     </main>
     <footer>
         <div class="footer-logo">

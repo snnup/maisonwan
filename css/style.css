@@ -155,6 +155,19 @@ nav a.active {
     font-weight: normal;
 }
 
+#hero4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/1776186602089-ratio-chance-es-editopush_2596x1948.webp');
+    background-size: cover;
+    background-position: center;
+    padding-left: 200px;
+    font-weight: normal;
+}
+
 .hero-content {
     width: 40%;
 }
@@ -279,6 +292,52 @@ nav a.active {
     font-family: var(--fonte-principal);
     font-weight: 600;
     letter-spacing: 3px;
+    line-height: 18px;
+}
+
+.botaohero4 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+
+.botaohero4 button {
+      border-bottom: 2px solid var(--cor-primaria);
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: var(--fonte-principal);
+      margin-top: 15px;
+}
+
+.botaohero4 button:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.hero4-content {
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.hero4-content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    overflow-wrap: break-word;
+}
+
+.hero4-content .margin03 {
+    font-size: 12px;
+    font-family: var(--fonte-corpo);
+    font-weight: 400;
+    letter-spacing: 0px;
     line-height: 18px;
 }
 
@@ -723,6 +782,14 @@ footer ul {
         align-items: center;
     }
 
+        #hero4 {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
     .hero-content {
         width: 100%;
         padding: 40px 24px;
@@ -744,31 +811,36 @@ footer ul {
     }
 
     .hero2-content,
-    .hero3-content {
+    .hero3-content,
+    .hero4-content {
         width: 100%;
         padding: 40px 24px;
         text-align: center;
     }
 
     .hero2-content h2,
-    .hero3-content h2 {
+    .hero3-content h2,
+    .hero4-content h2 {
         font-size: 20px;
         line-height: 28px;
     }
 
     .hero2-content .margin02,
-    .hero3-content .margin02 {
+    .hero3-content .margin02,
+    .hero4-content .margin02 {
         font-size: 12px;
     }
 
     .hero2-content .margin03,
-    .hero3-content .margin03 {
+    .hero3-content .margin03,
+    .hero4-content .margin03 {
         font-size: 12px;
         line-height: 18px;
     }
 
     .botaohero2,
-    .botaohero3 {
+    .botaohero3,
+    .botaohero4 {
         justify-content: center;
         width: 100%;
     }
