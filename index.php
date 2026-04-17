@@ -149,7 +149,7 @@
             <span class="indicador">1 / 3</span>
         </section>
             <section id="hero2">
-            <img src="img/Design sem nome.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 22.png" class="hero-img-mobile" alt="Hero">
             <div class="hero2-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM.</h2>
@@ -160,7 +160,7 @@
         </div>
         </section>
         <section id="hero3">
-            <img src="img/Design sem nome 2.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 33.png" class="hero-img-mobile" alt="Hero">
             <div class="hero3-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM PURSE<br>SPRAY</h2>
@@ -171,7 +171,7 @@
         </div>
         </section>
             <section id="hero4">
-            <img src="img/1776186602089-ratio-chance-es-editopush_2596x1948.webp" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 44.png" class="hero-img-mobile" alt="Hero">
             <div class="hero4-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">WAN EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>
