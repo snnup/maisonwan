@@ -502,7 +502,7 @@ nav a.active {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 200;
 }
 
 .carrossel-track {
@@ -1141,7 +1141,7 @@ footer ul {
     .category-card h3 {
         font-size: 12px;
         font-weight: 400;
-        padding-top: 5px;
+        padding-top: 15px;
     }
 
     /* FOOTER */
@@ -1168,4 +1168,16 @@ footer ul {
         gap: 16px;
         display: flex;
     }
+
+    .top-bar {
+    height: 5px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
 }
