@@ -863,17 +863,17 @@ footer ul {
 .shop-category h2 {
     font-family: var(--fonte-principal);
     font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 50px;
-    text-align: center;
+    font-size: 29px;
+    margin-bottom: -20px;
+    text-align: center
 }
 
 .category-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
+    gap: 50px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -907,7 +907,7 @@ footer ul {
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0px;
-    margin: 0;
+    margin: -50px 0 0 0;
     transition: opacity 0.3s ease;
 }
 
@@ -1141,6 +1141,7 @@ footer ul {
     .category-card h3 {
         font-size: 12px;
         font-weight: 400;
+        padding-top: 5px;
     }
 
     /* FOOTER */
