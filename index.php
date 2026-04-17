@@ -171,7 +171,7 @@
         </div>
         </section>
             <section id="hero4">
-            <img src="img/1776264350421-ratio-ccm-editopush-1_2596x1948.webp" class="hero4-img-mobile" alt="Hero 4">
+            <img src="img/Design sem nome 44.png" class="hero4-img-mobile" alt="Hero 4">
             <div class="hero4-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">WAN EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>

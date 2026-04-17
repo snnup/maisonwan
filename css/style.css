@@ -58,18 +58,29 @@ header {
 }
 
 nav {
-    transition: opacity 0.3s ease, max-height 0.3s ease;
     overflow: hidden;
-    max-height: 100px;
 }
 
-nav.scroll-hidden {
-    opacity: 0;
-    max-height: 0;
+@media (min-width: 769px) {
+    nav {
+        transition: opacity 0.3s ease, max-height 0.3s ease;
+        max-height: 100px;
+    }
+
+    nav.scroll-hidden {
+        opacity: 0;
+        max-height: 0;
+    }
 }
 
 main {
     margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 60px;
+    }
 }
 
 .header-top {
@@ -182,7 +193,7 @@ nav a.active {
     align-items: flex-start;
     justify-content: center;
     height: 500px;
-    background-image: url('../img/1776264350421-ratio-ccm-editopush-1_2596x1948.webp');
+    background-image: url('../img/Design sem nome 44.png');
     background-size: cover;
     background-position: center;
     padding-left: 200px;
@@ -392,7 +403,7 @@ nav a.active {
 };
 
 .botaohero4 {
-      display: flex;
+      display: center;
       justify-content: center;
       width: 100%;
 }
@@ -531,8 +542,9 @@ nav a.active {
       border-left: none;
       border-right: none;
       cursor: pointer;
-      font-size: 11px;
+      font-size: 10px;
       font-family: var(--fonte-principal);
+      margin: -10px 0 0 0;
 }
 
 .produto-card button:hover {
@@ -544,17 +556,23 @@ nav a.active {
 .produto-card h3 {
     font-size: 12px;
     font-family: var(--fonte-principal);
+    margin: 5px;
+    line-height: 1;
 }
 
 .produto-card p {
-    font-size: 14px;
+    font-size: 12px;
     font-family: var(--fonte-corpo);
     font-weight: 300;
+    margin: 0;
+    line-height: 1;
 }
 
 .produto-card span {
     font-size: 12px;
     font-family: var(--fonte-principal);
+    margin: -8px 0 0 0;
+    display: block;
 }
 
 .carrossel {
@@ -899,7 +917,14 @@ footer ul {
 
 @media (max-width: 768px) {
     /* HEADER */
-    nav { display: none; }
+    nav { 
+        display: none; 
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
     .hamburger { display: block; }
     
     header { padding: 12px 0; }
@@ -1029,7 +1054,7 @@ footer ul {
         width: 100%;
         height: 50vh;
         object-fit: cover;
-        object-position: center top;
+        object-position: 85% top;
     }
 
     .hero2-content,
