@@ -48,10 +48,19 @@
     </div>
     <h1><a href="/">Maison Wan</a></h1>
 <div class="header-icons">
+
     <i class="ph ph-magnifying-glass"></i>
+
+    <a href="/login" target="_blank" rel="noopener noreferrer">
     <i class="ph ph-user"></i>
+    </a>
+
     <i class="ph ph-heart"></i>
+
+    <a href="/cart" target="_blank" rel="noopener noreferrer">
     <i class="ph ph-shopping-bag"></i>
+    </a>
+    
 </div>
 </div>
     </header>

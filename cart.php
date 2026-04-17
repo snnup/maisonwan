@@ -7,69 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página não encontrada — Maison Wan</title>
-    <style>
-        .error-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 60vh;
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .error-code {
-            font-size: 120px;
-            font-weight: normal;
-            margin: 0;
-            letter-spacing: 12px;
-            color: #1D1D1D;
-            line-height: 1;
-        }
-
-        .error-divider {
-            width: 60px;
-            height: 1px;
-            background-color: #1D1D1D;
-            margin: 32px auto;
-        }
-
-        .error-title {
-            font-size: 14px;
-            letter-spacing: 4px;
-            font-weight: normal;
-            margin-bottom: 16px;
-            color: #1D1D1D;
-        }
-
-        .error-description {
-            font-size: 13px;
-            color: #666;
-            margin-bottom: 40px;
-            font-family: 'Helvetica', sans-serif;
-            font-weight: 300;
-            line-height: 1.8;
-        }
-
-        .error-button {
-            display: inline-block;
-            padding: 14px 40px;
-            background: transparent;
-            color: #1D1D1D;
-            text-decoration: none;
-            border: 1px solid #1D1D1D;
-            font-size: 11px;
-            letter-spacing: 3px;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-
-        .error-button:hover {
-            background-color: #1D1D1D;
-            color: #fff;
-        }
-    </style>
+    <title>Cart — Maison Wan</title>
 </head>
 <body>
 
