@@ -86,3 +86,21 @@ if (hamburger && menuDrawer && menuOverlay && menuFechar) {
         atualizarSetas();
         atualizarIndicador();
     }
+
+    // Nav esconde ao scrollar (header fica visível)
+    const nav = document.querySelector('nav');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scrollando para baixo
+            if (nav) nav.classList.add('scroll-hidden');
+        } else {
+            // Scrollando para cima
+            if (nav) nav.classList.remove('scroll-hidden');
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });

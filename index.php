@@ -149,7 +149,7 @@
             <span class="indicador">1 / 3</span>
         </section>
             <section id="hero2">
-            <img src="img/Design sem nome 22.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 22.png" class="hero2-img-mobile" alt="Hero 2">
             <div class="hero2-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM.</h2>
@@ -160,7 +160,7 @@
         </div>
         </section>
         <section id="hero3">
-            <img src="img/Design sem nome 33.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/Design sem nome 33.png" class="hero3-img-mobile" alt="Hero 3">
             <div class="hero3-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">COCO<br>MADEMOISELLE EAU<br>DE PARFUM PURSE<br>SPRAY</h2>
@@ -171,7 +171,7 @@
         </div>
         </section>
             <section id="hero4">
-            <img src="img/Design sem nome 44.png" class="hero-img-mobile" alt="Hero">
+            <img src="img/1776264350421-ratio-ccm-editopush-1_2596x1948.webp" class="hero4-img-mobile" alt="Hero 4">
             <div class="hero4-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin5 TextCenter">WAN EAU<br>SPLENDIDE EAU DE<br>PARFUM.</h2>
@@ -203,7 +203,7 @@
             </div>
         </section>
             <section id="hero5">
-            <img src="img/1776186602971-ratio-gift-finder-desk-mp-1_1800x5760.webp" class="hero-img-mobile" alt="Hero">
+            <img src="img/1776186602971-ratio-gift-finder-desk-mp-1_1800x5760.webp" class="hero5-img-mobile" alt="Hero 5">
             <div class="hero5-content">
             <p class="margin02 TextCenter">HAPPY MOTHER'S DAY</p>
             <h2 class="margin0 TextCenter">THE WAN GIFT FINDER</h2>
