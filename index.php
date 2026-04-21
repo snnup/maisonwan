@@ -76,6 +76,7 @@
             <h2>FRAGRANCE BESTSELLERS</h2>
             <div class="seta-esquerda-wrapper">
             <button class="seta-esquerda">‹</button>
+            </div>
             <div class="carrossel">
                 <div class="carrossel-track">
                     <div class="produto-card">

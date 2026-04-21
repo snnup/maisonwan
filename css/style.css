@@ -167,7 +167,7 @@ nav a.active {
     align-items: flex-start;
     justify-content: center;
     height: 500px;
-    background-image: url('../img/Design sem nome 22.png');
+    background-image: url('../img/Design\ sem\ nome\ 22.png');
     background-size: cover;
     background-position: center;
     padding-left: 200px;
@@ -180,7 +180,7 @@ nav a.active {
     align-items: flex-end;
     justify-content: center;
     height: 500px;
-    background-image: url('../img/Design sem nome 33.png');
+    background-image: url('../img/Design\ sem\ nome\ 33.png');
     background-size: cover;
     background-position: center;
     padding-right: 200px;
@@ -193,7 +193,7 @@ nav a.active {
     align-items: flex-start;
     justify-content: center;
     height: 500px;
-    background-image: url('../img/Design sem nome 44.png');
+    background-image: url('../img/Design\ sem\ nome\ 44.png');
     background-size: cover;
     background-position: center;
     padding-left: 200px;
@@ -403,7 +403,7 @@ nav a.active {
 };
 
 .botaohero4 {
-      display: center;
+      display: flex;
       justify-content: center;
       width: 100%;
 }
